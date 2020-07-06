@@ -1,0 +1,53 @@
+
+.carousel-indicators li{
+	width:0.8rem;
+	height:0.8rem;
+	background-color: transparent;
+	border-radius: 50%;
+	border:1px solid white;
+}
+.carousel-indicators .active{
+	background-color: #fff;
+}
+.font_jp{
+	font-size: 24px;
+	color:#585858;
+}
+@media (min-width:576px){
+	.ml{
+		margin-left:208px;
+	}
+	.img_dh_2{
+		width:98.2%;
+	}
+}
+@media (min-width:768px){
+	.ml{
+		margin-left:298px;
+	}
+	.w-md-90{
+		width:90%;
+	}
+	.w-md-95{
+		width:100%;
+	}
+	.img_dh_2{
+		width:100%;
+	}
+}
+@media (min-width:992px){
+	.ml{
+		margin-left:418px;
+	}
+	.w-md-90{
+		width:100%;
+	}
+	.w-md-95{
+		width:100%;
+	}
+}
+@media (min-width:1200px){
+	.ml{
+		margin-left:508px;
+	}
+}

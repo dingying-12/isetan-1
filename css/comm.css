@@ -1,0 +1,17 @@
+.my_header,.my_footer{
+	width:100%;
+	border:0;
+}
+@media (min-width:576px){
+	.my_header{
+		height:6.4rem;
+	}
+	.my_footer{
+		height:25rem;
+	}
+}
+@media (min-width:992px){
+	.my_footer{
+		height:35rem;
+	}
+}
